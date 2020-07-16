@@ -28,8 +28,8 @@
 
 </table> -->
 
-
-<div class="row">
+<div class="container">
+    <div class="row">
         @foreach($items as  $item)
             <div class="col-sm-6  col-sm-3  ">
                 <div class="thumbnail">
@@ -42,6 +42,7 @@
                 </div>
               </div>
         @endforeach
+    </div>
 </div>
     
     <div class="push4"></div>
