@@ -34,10 +34,11 @@
             <div class="col-sm-6  col-sm-3  ">
                 <div class="thumbnail">
                     <a href="{{ route('pages.details',['id' => $item->id]) }}"><img   src="{{ $item->imagePath }}" alt="..."></a>
-                    <h5>{{ $item->title }}</h5>
-                    <p class="description">{{ $item->description }}</p>
-                    <div class="clearfix">
-                        <p> <a href="{{ route('item.addToCart', ['id' => $item->id]) }}" class="btn btn-primary pull-right" role="button">Add Item</a>${{ $item->price }}</p>
+                    <h5 class="text-center">{{ $item->title }}</h5>
+                    <p class="description text-center">{{ $item->description }}</p>
+                    <div class="clearfix text-center">
+                        <p>${{ $item->price }}</p>
+                        <a href="{{ route('item.addToCart', ['id' => $item->id]) }}" class="btn btn-primary" role="button">Add Item</a>
                     </div>
                 </div>
               </div>
