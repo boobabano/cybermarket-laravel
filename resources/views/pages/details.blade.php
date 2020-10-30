@@ -11,6 +11,9 @@
                 <img src="{{ asset($movie->imagePath) }}" with="423px" height="628px">
             
             </div> 
+        
+        
+            
             
             <div class="col-sm-7 col-md-6 col-md-offset-2 col-xs-offset-1" id="paragraph">
                 <p><u><b>Synopsis</b></u>
@@ -24,6 +27,8 @@
                 <br><br><br><br><br>
                 </p>
             </div> 
+        
+         
             <div class="embed-responsive embed-responsive-16by9  col-xs-10 col-sm-6 col-md-5 col-md-offset-6 col-xs-offset-1 " id="video">
                 <iframe class="embed-responsive-item" width="560" height="315" src="{{ asset($movie->videoPath) }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>

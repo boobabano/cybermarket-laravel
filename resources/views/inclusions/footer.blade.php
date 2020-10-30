@@ -8,7 +8,7 @@
     <!--Copyright-->
     <hr>
     <div class="footer-copyright py-3 text-center" id="copyright">
-        All rights reserved © 2018 Copyright.
+        All rights reserved © {{ date('Y') }} Copyright.
         
         </div>
         <br>
